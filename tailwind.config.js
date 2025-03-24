@@ -354,6 +354,7 @@ module.exports = {
         "BlinkMacSystemFont",
         '"Segoe UI"',
         "Roboto",
+        "Zen Kaku Gothic New",
         '"Helvetica Neue"',
         "Arial",
         '"Noto Sans"',
@@ -365,6 +366,7 @@ module.exports = {
       ],
       serif: [
         "Roboto Serif",
+        "Zen Old Mincho",
         "ui-serif",
         "Georgia",
         "Cambria",

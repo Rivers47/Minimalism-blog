@@ -1,17 +1,18 @@
 ---
-title: "ブスの検証"
+title: ブスの検証
 description: An Japanese translation of my original post on dodging Buddhist's Diamond
 tags: ["post", "touhou"]
 date: 2023-03-28
 location: 迷いの竹林
 layout: article.njk
+lang: jp
 permalink: "blog/buddhistjp.html"
 ---
 
-
-まずいくつかの簡単な考察：
+まずいくつかの簡単な考察
 
 これはランダムなレーザー（x33）＋ランダムな星弾＋自機狙いの鱗弾で構成されています。
+
 
 多くの人はレーザーと自機狙いの周波数は固定されていると考えているが、そうとも言えない。最初の2つのレーザーは200f離れており、その後の各波は180f離れている。 レーザーも同様で、前のレーザーが消え始める前に、次のレーザーが発生し始めるています。
 

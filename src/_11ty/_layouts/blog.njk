@@ -17,7 +17,11 @@ type: website
             </li>
         {%- for post in collections.post | reverse -%}
             <li class="posts">
+                {% if post.data.lang %}
+                <h2><a href="{{post.url}}" style="font-family: Zen Kaku Gothic New;font-weight:Bold">{{post.data.title}}</a></h2>
+                {% else %}
                 <h2><a href="{{post.url}}">{{post.data.title}}</a></h2>
+                {% endif %}
                 <p>{{post.data.description | safe}}</p>
                 <small class="info">
                     <time datetime="{{post.date}}">{{post.date | readableDate}}</time>&nbsp;&nbsp;&ndash;&nbsp;
