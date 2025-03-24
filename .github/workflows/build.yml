@@ -11,21 +11,9 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [18.x, 20.x, 22.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
     steps:
     - uses: actions/checkout@v4
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v4
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
     - run: |
         git submodule update --init
         npm install
@@ -34,7 +22,7 @@ jobs:
       uses: actions/upload-artifact@v4.6.2
       with:
         # Artifact name
-        name: public.zip
+        name: public
         # A file, directory or wildcard pattern that describes what to upload
         path: public
         # The desired behavior if no files are found using the provided path.
