@@ -30,3 +30,12 @@ jobs:
         git submodule update --init
         npm install
         npm run eleventy
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v4.6.2
+      with:
+        # Artifact name
+        name: public.zip
+        # A file, directory or wildcard pattern that describes what to upload
+        path: public
+        # The desired behavior if no files are found using the provided path.
+              
