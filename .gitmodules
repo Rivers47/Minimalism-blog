@@ -1,0 +1,3 @@
+[submodule "modules/eleventy-plugin-jupyter-nb-extract"]
+	path = modules/eleventy-plugin-jupyter-nb-extract
+	url = https://codeberg.org/vpratz/eleventy-plugin-jupyter-nb-extract.git

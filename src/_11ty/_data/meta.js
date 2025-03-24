@@ -2,16 +2,16 @@ module.exports = {
   //
   // Website Meta
   //  
-  language: "it-IT",
-  lang: "it",
-  siteName: "Minimalism",
-  shortName: "Minimalism",
-  motto: "Simplicity is the ultimate sophistication.",
-  authorName: "Autore",
+  language: "en-CA",
+  lang: "en",
+  siteName: "I made it up",
+  shortName: "I made it up",
+  motto: "Quote from the original IPv7 proposal rfc1475" ,
+  authorName: "contact@ipv7.io",
   siteDescription: "",
   sitekeyword: "",
-  creationDate: "02/02/2022", // change this data
-  url: process.env.URL || "https://www.marcomicale.eu", // change this url
+  creationDate: "08/31/2025", // change this data
+  url: process.env.URL || "https://bio.ipv7.io", // change this url
   robots: "index, follow",
   //
   // Color App
@@ -21,14 +21,15 @@ module.exports = {
   //
   // Contact me
   //
-  mail: "marcomicale@gmail.com",
+  mail: "contact@ipv7.io",
   telephone: "",
   //
   // Social Network
   //
-  twitterUser: "", 
+  twitterUser: "Rivers10000", 
   facebookUser: "",
-  githubUser: "",
+  githubUser: "Rivers47",
   telegramkUser: "",
   linkedinkUser: "",
+  bangumiUser: "rivers17"
 };
