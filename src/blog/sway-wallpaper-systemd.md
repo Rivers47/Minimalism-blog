@@ -8,7 +8,7 @@ layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 
-This post is inspired on (this blog post)[https://sylvaindurand.org/dynamic-wallpapers-with-sway/]
+This post is inspired by [this blog post](https://sylvaindurand.org/dynamic-wallpapers-with-sway/)
 with a few modifications. 
 
 This is my script. 
@@ -32,7 +32,11 @@ done
 ```
 The `pkill` at the beginning of the script might be unncessary, but it's
 there just in case. I am not sure if a process can kill processes outside
-of its cgroup to be honest.
+of its cgroup to be honest. The `sleep 1` is necessary because the 
+new swaybg process needs sometime to load the image file. If the old process
+is killed instantly there will still be a black screen in between.
+The 1 second interval may need to be larger if you are reading big files
+from a network mounted drive, for instance.
 
 Initially I tried to use systemd timers to achieve this, but it does 
 not work well with the requirement that you need to start a new 
