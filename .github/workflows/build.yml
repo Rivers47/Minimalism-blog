@@ -18,7 +18,7 @@ jobs:
         git submodule update --init
         npm install
         npm run clean
-        npm run icon
+        npx pwa-asset-generator logo.png ./src/_11ty/_static/favicon -b -m -q 100 -t png -f -w -e --no-sandbox
         npm run css:website
         npm run css:social-img
         npm run eleventy
