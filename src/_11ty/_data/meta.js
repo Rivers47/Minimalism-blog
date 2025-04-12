@@ -7,7 +7,7 @@ module.exports = {
   siteName: "I made it up",
   shortName: "I made it up",
   motto: "Quote from the original IPv7 proposal rfc1475" ,
-  authorName: "contact@ipv7.io",
+  authorName: "Rivers",
   siteDescription: "",
   sitekeyword: "",
   creationDate: "08/31/2025", // change this data

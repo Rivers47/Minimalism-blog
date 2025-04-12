@@ -17,7 +17,7 @@ This is my script.
 echo start wallpaper service
 pkill swaybg
 while :; do
-	path=$(fd -t f . '/home/rivers/Pictures/WallPaper' | shuf -n1)
+	path=$(find '/home/rivers/Pictures/WallPaper' -type f | shuf -n1)
 	echo "$path"
 	swaybg -i "$path" --mode fill & 
 	if [ $PID ]; then
@@ -44,7 +44,7 @@ process before killing the old one. Also systemd timers don't allow
 setting more complicated logic of delay times.
 
 So, to make this a systemd (user) unit that start automatically on
-your login, create this in `~.config/systemd/user`
+your login, create this in `~/.config/systemd/user`
 
 ```
 [Unit]

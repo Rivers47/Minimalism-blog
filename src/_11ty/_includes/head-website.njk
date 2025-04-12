@@ -13,7 +13,7 @@
             "@context": "http://schema.org",
             "@type": "Webpage",
             "url": "{{pageUrls}}",
-            "name": {{page.URL}}"}}meta.siteName}}",
+            "name": {{page.URL}}"{{meta.siteName}}",
             "headline": "{{pageTitle}}",
             "description": "{{pageDescription}}",
             "mainEntityOfPage": {
@@ -23,12 +23,6 @@
             "publisher": {
                 "@type": "Organization",
                 "name": "{{meta.authorName}}",
-            "logo": {
-                "url": "{{meta.url}}img/marcomicale.webp",
-                "width": 1200,
-                "height": 900,
-                "@type": "ImageObject"
-            }
             },
             "image": {
                 "@type": "ImageObject",
