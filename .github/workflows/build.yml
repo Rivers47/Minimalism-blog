@@ -17,7 +17,7 @@ jobs:
     - run: |
         git submodule update --init
         npm install
-        npm run go!
+        npm run-s clean icon css:* eleventy
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v4.6.2
       with:
