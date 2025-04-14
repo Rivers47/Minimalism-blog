@@ -49,7 +49,9 @@ your login, create this in `~/.config/systemd/user`
 ```
 [Unit]
 Description=change wall paper
-ConditionEnvironment=WAYLAND_DISPLAY
+#ConditionEnvironment=WAYLAND_DISPLAY
+Wants=sway-session.target
+After=sway-session.target
 
 [Service]
 ExecStart=%h/.config/systemd/user/changeWallpaper.sh
@@ -58,5 +60,5 @@ Restart=always
 [Install]
 WantedBy=default.target
 ```
-The `ConditionEnvironment` is needed because the service needs to start after the wayland compositor
-is up. 
+The `ConditionEnvironment` should needed because the service needs to start after the wayland compositor
+is up, but I haven't found a way to make the unit start reliably after wayland.
