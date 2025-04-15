@@ -2,7 +2,7 @@
 title:  Change SwayWM wallpaper with a user systemd service
 description: Randomly change wallpaper with swaybg using systemd service however you want
 tags: ["post", "linux"]
-date: 2025-04-12
+date: 2025-04-15
 location: 迷いの竹林
 layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
@@ -43,22 +43,35 @@ not work well with the requirement that you need to start a new
 process before killing the old one. Also systemd timers don't allow
 setting more complicated logic of delay times.
 
+The tricky part is to make sure the unit starts after sway has fully
+started with all the environment variables set.
+The `sway-session.target` is provided by [sway-systemd](https://github.com/alebastr/sway-systemd)
+which is configured by default in Fedora.
+
+
 So, to make this a systemd (user) unit that start automatically on
 your login, create this in `~/.config/systemd/user`
 
 ```
 [Unit]
 Description=change wall paper
-#ConditionEnvironment=WAYLAND_DISPLAY
-Wants=sway-session.target
+ConditionEnvironment=WAYLAND_DISPLAY
+Requires=sway-session.target
 After=sway-session.target
 
 [Service]
+Type=exec
 ExecStart=%h/.config/systemd/user/changeWallpaper.sh
-Restart=always
+Restart=no
 
 [Install]
-WantedBy=default.target
+WantedBy=sway-session.target
 ```
-The `ConditionEnvironment` should needed because the service needs to start after the wayland compositor
-is up, but I haven't found a way to make the unit start reliably after wayland.
+The `ConditionEnvironment=WAYLAND_DISPLAY` just provides a check to see if the unit dependency is set upcorrectly.
+Make sure systemd generates `sway-session.target.wants` in the folder when you enable the unit and not other targets if you 
+had changed it. `daemon-reload` will not actually clear old wants folder and it can cause unexpected
+dependency chains.
+
+If you are wondering why you can specify After and WantedBy to be the same target,
+see [this answer](https://unix.stackexchange.com/questions/503679/systemd-unit-file-wantedby-and-after)
+
