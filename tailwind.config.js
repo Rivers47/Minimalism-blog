@@ -3,6 +3,20 @@ module.exports = {
   presets: [],
   darkMode: "media", // or 'class'
   theme: {
+    extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            "code::before": {
+              content: '""',
+            },
+            "code::after": {
+              content: '""',
+            },
+          },
+        },
+      },
+    },
     screens: {
       sm: "450px",
       md: "768px",
