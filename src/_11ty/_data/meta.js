@@ -6,7 +6,7 @@ module.exports = {
   lang: "en",
   siteName: "I made it up",
   shortName: "I made it up",
-  motto: "Quote from the original IPv7 proposal rfc1475" ,
+  motto: "" ,
   authorName: "Rivers",
   siteDescription: "",
   sitekeyword: "",

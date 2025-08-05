@@ -9,10 +9,13 @@ eleventyNavigation:
   order: 1
 ---
 
-# Home Page
 
-The is my personal blog where I drop random dairies and posts about things I do. The name came
-from the IPv7 proposal where the authored explained what is behind the version number 7: there is 
-no meaning, they made it up. 
 
-I made this page in the hope that I will write more about myself and my daily life.
+企業のネットが惑星を被い、電子や光が駆け巡っても
+
+昔よりはマシになってもなければ \
+国家や民族も無くなることもなく
+
+物質やエネルギーの問題は解決せず \
+真の世界平和へはまだまだ遠い道のりで…
+ 
