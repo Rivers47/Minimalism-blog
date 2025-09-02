@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "run-p dev:*",
+	"build": "run-s clean css:* eleventy",
     "go!": "run-s clean icon css:* eleventy social-images",
     "clean": "rimraf public",
     "css:website": "npx tailwindcss -i src/_11ty/_tailwindCSS/raw-website.css -o public/css/style.css --minify",
