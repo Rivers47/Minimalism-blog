@@ -21,10 +21,7 @@ jobs:
         git submodule update --init
         npm install
         npm run clean
-    - run: npx pwa-asset-generator logo.png ./src/_11ty/_static/favicon --no-sandbox -b -m -q 100 -t png -f -w -e 
-    - run: npm run css:website
-    - run: npm run css:social-img
-    - run: npm run eleventy
+    - run: npx run build
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v4.6.2
       with:
