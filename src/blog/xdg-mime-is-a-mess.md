@@ -29,3 +29,5 @@ xdg-mime query filetype /tmp/foobar.png
 xdg-mime query default major/minor
 ```
 let's you to see which mimeapps.list is scanned 
+
+It's also possible that you are using `gio` from `glib2` which completely ignores `.config/mimeapp.list`, use it instead when xdg-mime isn't working.
