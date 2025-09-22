@@ -75,3 +75,6 @@ dependency chains.
 If you are wondering why you can specify After and WantedBy to be the same target,
 see [this answer](https://unix.stackexchange.com/questions/503679/systemd-unit-file-wantedby-and-after)
 
+# Multi-monitor
+If you feel a bit fancy you can use systemd template to make each monitor update independently or using more sophiscated logic like separate sets of images.
+Natively sway doesn't support setting wallpaper per workspace unless you use [external tools](https://github.com/gergo-salyi/multibg-wayland).
