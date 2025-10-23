@@ -10,5 +10,4 @@ eleventyNavigation:
   order: 2
 ---
 
-# Present day, present time...
-
+## The rivers flows into the ocean, for it's in love with the whales.
