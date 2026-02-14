@@ -1,6 +1,6 @@
 ---
 title: Blog
-description: In questa pagina troverai tutti i pots che ho pubblicato
+description: On this page you will find all the pots I have published
 keyword: test
 type: website
 ---
@@ -17,8 +17,10 @@ type: website
             </li>
         {%- for post in collections.post | reverse -%}
             <li class="posts">
-                {% if post.data.lang %}
+                {% if post.data.lang == 'jp' %}
                 <h2><a href="{{post.url}}" style="font-family: Zen Kaku Gothic New;font-weight:Bold">{{post.data.title}}</a></h2>
+                {% elif post.data.lang == 'zh' %}
+                <h2><a href="{{post.url}}" style="font-family: Noto Sans SC;font-weight:Bold">{{post.data.title}}</a></h2>
                 {% else %}
                 <h2><a href="{{post.url}}">{{post.data.title}}</a></h2>
                 {% endif %}

@@ -4,7 +4,7 @@
 
 @layer base {
   html {
-    @apply px-5 bg-zinc-100 dark:bg-zinc-900 font-serif text-base text-slate-900 dark:text-slate-100 transition-all;
+    @apply px-5 bg-zinc-100 dark:bg-zinc-900 font-sans text-base text-slate-900 dark:text-slate-100 transition-all;
   }
   body {
     @apply container mx-auto;
