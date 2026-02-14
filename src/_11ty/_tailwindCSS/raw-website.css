@@ -80,6 +80,9 @@
   .icon:focus-within {
     @apply hover:stroke-sky-600;
   }
+  figcaption {
+    @apply text-center;
+  }
 }
 
 @media screen(sm) {

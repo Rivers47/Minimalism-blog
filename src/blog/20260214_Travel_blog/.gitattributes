@@ -1,7 +1,2 @@
-chopin_chair.webp filter=lfs diff=lfs merge=lfs -text
-chopin_museum_concert.webp filter=lfs diff=lfs merge=lfs -text
-chopin_piano.webp filter=lfs diff=lfs merge=lfs -text
-chopin_script.webp filter=lfs diff=lfs merge=lfs -text
-feime.webp filter=lfs diff=lfs merge=lfs -text
-poland_dinner_dessert.webp filter=lfs diff=lfs merge=lfs -text
-poland_dinner.webp filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.webp filter=lfs diff=lfs merge=lfs -text
