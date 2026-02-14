@@ -66,7 +66,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(jupyterplugin);
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		// output image formats
-		formats: ["webp", "avif", "jpeg"],
+		formats: ["webp", "avif"],
 
 		// output image widths
 		widths: ["auto"],
@@ -79,6 +79,7 @@ module.exports = function (eleventyConfig) {
 			},
 			pictureAttributes: {}
 		},
+    //fixOrientation: true,
 	});
 
   // e alla fine
