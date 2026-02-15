@@ -66,7 +66,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(jupyterplugin);
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		// output image formats
-		formats: ["webp", "avif"],
+		formats: ["webp"],
 
 		// output image widths
 		widths: ["auto"],
@@ -74,7 +74,7 @@ module.exports = function (eleventyConfig) {
 		// optional, attributes assigned on <img> nodes override these values
 		htmlOptions: {
 			imgAttributes: {
-				loading: "lazy",
+				// loading: "lazy",
 				decoding: "async",
 			},
 			pictureAttributes: {}

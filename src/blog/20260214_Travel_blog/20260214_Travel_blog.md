@@ -106,3 +106,74 @@ For some reason　这里的本地饭馆似乎很喜欢养鸟，这家挂了大�
 ## 苏州
 
 看了一些……博物馆……里的很久以前的人用墨水在纸上画的图案……
+<figure><img src="./from_NTR_to_love.png" alt="">
+<figcaption><s>From NTR to love</s>
+</figcaption>
+</figure>
+
+<figure><img src="./butterfly_fan.png" alt="">
+<figcaption>照片上拍不出来，那个黑点是一只蝴蝶，感觉很厉害的留白
+</figcaption>
+</figure>
+
+博物馆纪念品店的一些粘土人，眼睛似乎隐约有些泡泡玛特的风格，也可能
+只是泡泡玛特看多了过敏了
+<figure><img src="./suzhou_museum.png" alt="">
+<figcaption>泡泡玛特风（？）粘土人</figcaption></figure>
+
+
+## 广州
+### 广州十三行博物馆
+本想去广东省博物馆但是预约失败，遂退而求其次去了一个不要预约的。据说博物馆的中有四千多份藏品都是由一对很有钱的夫妇捐赠的。哎，资本家，真可恶。
+
+<figure><img src="./chess.jpg" alt="">
+<figcaption>象牙制，很酷炫的国际象棋，哈利波特中国版.jpg</figcaption></figure>
+
+一些雕刻很繁复的柜子，感觉在阳光下的影子会非常好看。像这样的柜子还有七八个。
+<figure><img src="./closet.png" alt="">
+<figcaption>原来富人连手办柜都这么讲究.jpg</figcaption></figure>
+
+<figure><img src="./endfield_gacha.png" alt="">
+<figcaption>和某群友参加了终末地开服抽卡活动，TA直接抽出了双黄</figcaption></figure>
+
+## 香港
+
+### 第一天
+去香港的前一天刷推发现东方群里某日本群友正好去香港玩，一番协商后决定改签火车票，一大早奔赴香港。同时听取群友的建议，先坐高铁到深圳，然后过罗湖口岸后直接坐香港地铁入港，甚至有神秘的微信乘车码可以地铁票打折。要省钱，还是得看群友。
+
+吃饭时发现订的宾馆是个事故物件，去年出了两起命案，朋友非常担心，但我却在暗爽心想赚到了。一问日本友人订了哪里，结果是在市中心按价格从低往高选了个最便宜的，看了下照片，墙上斑斑驳驳的霉斑，甚至是上下铺。这是真的拿着外国护照一点也不怕出事啊。
+
+旅馆在荃湾，下地铁后走错了路线没有走到天桥上，窄窄的人行道上坐满了一排女菲佣在打牌聊天，只好尴尬地拖着行李箱和她们擦肩而过。到了旅馆一看发现居然是英式的插座，好在旅馆楼下就是一个大商场，转了一会找到了旅行插座，装了一个1A的保险丝，但是似乎插上充电器的瞬间电流太大，插了两次之后备用的保险丝也烧了。灵机一动从买的终末地周边包装上拆下来几根订书针，塞进保险丝仓内，能用了，完美（当然为了安全起见只在人在的时候用了）。
+
+当晚，在旺角附近随便转了转找吃的，在一家商场顶层的灯光昏暗的餐厅里，服务员上来就跟我说英文，还好我想起来自己会英文。
+
+<figure><img src="./hongkong_dinner1.png" alt="">
+<figcaption>很好吃的牛肉，非常嫩，就是略贵，大约350港币</figcaption></figure>
+
+还发现了一家donki，里面太挤了不方便拍照，但真的很大。
+
+<figure><img src="./donki.png" alt="">
+<figcaption>对ADHD特攻.gif</figcaption></figure>
+
+
+香港提供了一种很神奇的体验，这里的perferred language粤语我不会，但这里的secondary language普通话英语日语我却都会。
+
+### 第二天
+来之前想去九龙寨城~~看UFO~~,但是查了一下九龙寨城遗址公园 is more or less just a 公园，遂放弃。去了香港美术馆，又看了很多很久以前的人用墨水在纸上画的图案。虽然我还是看不懂，但同行的朋友大为满意，表示看到了很多有名人的真迹。
+
+<figure><img src="./perfume_bottle.png" alt="">
+<figcaption>一些很好看的鼻烟瓶，感觉拿来装香水不错</figcaption></figure>
+
+<figure><img src="./hongkong_fan.jpg" alt="">
+<figcaption>写得非常错落有致</figcaption></figure>
+
+<figure><img src="./hongkong_fan2.jpg" alt="">
+<figcaption>梦</figcaption></figure>
+
+当晚与香港的群友吃了一顿海鲜大排档。
+群友健谈，饭好吃，虽累但爽。
+
+
+## ？？？
+> 未完待续……
+
