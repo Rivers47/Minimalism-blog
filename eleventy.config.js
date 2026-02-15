@@ -20,6 +20,8 @@ module.exports = function (eleventyConfig) {
   // Apri automaticamente il browser
   eleventyConfig.setBrowserSyncConfig({ open: true });
 
+
+  
   // 11ty attivazione plugins
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(socialImages);
@@ -62,8 +64,23 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPlugin(mathjaxPlugin);
   eleventyConfig.addPlugin(jupyterplugin);
-  eleventyConfig.addPlugin(eleventyImageTransformPlugin);
-  
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+		// output image formats
+		formats: ["webp", "avif", "jpeg"],
+
+		// output image widths
+		widths: ["auto"],
+
+		// optional, attributes assigned on <img> nodes override these values
+		htmlOptions: {
+			imgAttributes: {
+				loading: "lazy",
+				decoding: "async",
+			},
+			pictureAttributes: {}
+		},
+    //fixOrientation: true,
+	});
 
   // e alla fine
   return {

@@ -1,6 +1,6 @@
 ---
-title: Articolo del Blog
-description: Questa è la descrizione di uno degli articoli del blog
+title: Blog Article
+description: This is the description of one of the blog posts
 tags: post
 date: Created
 location: 
@@ -13,7 +13,17 @@ type: article
 <body>
     {% include "nav.njk" %}
     <article>
-        {% if lang %}
+        {% if lang == 'zh' %}
+            <small class="info">
+                {{ location }}&nbsp;
+                <time datetime="{{page.date}}">{{page.date | readableDate}}</time>&nbsp;&ndash;&nbsp;
+                {{content | readingTime}}
+            </small>
+            <h1 style="font-family: Noto Sans SC;">{{ title }}</h1>
+            <div style="font-family: Noto Sans SC;">
+                {{content | safe}}
+            </div>
+        {% elif lang == 'jp' %}
             <small class="info">
                 {{ location }}&nbsp;
                 <time datetime="{{page.date}}">{{page.date | readableDate}}</time>&nbsp;&ndash;&nbsp;
