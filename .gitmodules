@@ -3,4 +3,4 @@
 	url = https://codeberg.org/vpratz/eleventy-plugin-jupyter-nb-extract.git
 [submodule "modules/eleventy-plugin-reading-time"]
 	path = modules/eleventy-plugin-reading-time
-	url = git@github.com:Rivers47/eleventy-plugin-reading-time.git
+	url = https://github.com/Rivers47/eleventy-plugin-reading-time.git
