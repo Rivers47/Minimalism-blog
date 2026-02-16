@@ -11,7 +11,7 @@ module.exports = {
   siteDescription: "",
   sitekeyword: "",
   creationDate: "08/31/2025", // change this data
-  url: process.env.URL || "https://bio.ipv7.io", // change this url
+  url: process.env.URL || "https://blog.ipv7.io", // change this url
   robots: "index, follow",
   //
   // Color App
